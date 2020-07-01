@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Site */
+
+/* Bar de navigation */
+
+.nav-item .nav-link {
+    color: #339 !important;
+    font-weight: 600;
+}
+
+/* Contenue principale */
+
+.col-lg-3 i {
+    display: block;
+    text-align: center
+}
+
+main {
+    margin-top: 87px;
+}
+.content ul li {
+    padding-left: 10%;
+    list-style-position: inside;
+}
+.content ul li, .content p {
+    color: #339;
+}
+
+.shadow {
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #339;
+    padding-top: 30px;
+    color: white;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer .page-footer {
+    padding-left: 12.5%;
+}
+
+.page-footer ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.copyright p {
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 578px) {
+    /* Contenue principale */
+    .content ul li {
+        padding-left: 0%;
+    }
+}
+/* Connexion application */
+
+.app-back {
+    background-color: rgb(203, 208, 200);
+}
+
+.formco label, .formco h4 {
+    color: #339;
+}
+@media screen and (max-width: 768px) {
+    .form-ins {
+        margin-top: 120px;
+    }
+}
+
+/* Formulaire de connexion*/
+.vertical-h {
+    width: 100%;
+    height: 100vh;
+}
+.full-wh {
+    width: 100%;
+    height: 100%;
+}
+
+/* Application */
+.navbar-toggler {
+    margin-top: 10px;
+}
+.navbar-app{
+    height: 100vh;
+}
+@media screen and (max-width: 992px) {
+    .navbar-app {
+        height: auto;
+    }
+    .mainscreen {
+        margin-top: 80px;
+    }
+}
